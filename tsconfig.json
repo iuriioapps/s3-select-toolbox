@@ -6,15 +6,16 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "outDir": "./lib/esm"
+    "outDir": "./lib/esm",
+    "moduleResolution": "Node"
   },
   "include": [
     "./src"
   ],
   "exclude": [
-    "node_modules",
-    "lib",
-    "test"
+    "node_modules/",
+    "lib/",
+    "test/"
   ],
   "typedocOptions": {
     "inputFiles": ["./src"],
