@@ -1,5 +1,5 @@
 {
-  "name": "s3-select-toolbox",
+  "name": "@iuriioapps/s3-select-toolbox",
   "version": "0.0.1-beta1",
   "description": "S3 Select Toolbox",
   "main": "./lib/cjs/index.js",
