@@ -5,19 +5,19 @@ on:
     branches: [ develop ]
   pull_request:
     branches: [ develop ]
-    
+
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
     - name: install
-      run: npm ci
-  
+      run: npm install
+
     - name: build
       run: npm run build
-  
+
     - name: test
       run: npm test
