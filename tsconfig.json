@@ -10,5 +10,14 @@
   },
   "include": [
     "./src"
-  ]
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "typedocOptions": {
+    "inputFiles": ["./src"],
+    "exclude": ["node_modules/**"],
+    "mode": "modules",
+    "out": "docs"
+  }
 }
