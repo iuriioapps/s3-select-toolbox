@@ -8,7 +8,7 @@
     "lib/"
   ],
   "scripts": {
-    "clean": "rimraf ./lib",
+    "clean": "rimraf ./lib ./docs",
     "build": "npm run clean && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "docs": "typedoc",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs",
